@@ -3,8 +3,9 @@
     "",
     "\\ekstra_yapilar",
     "\\ekstra_yapilar\\Captcha",
-    "\\ekstra_yapilar\\Captcha\\Captcha"
+    "\\ekstra_yapilar\\Captcha\\Captcha",
+    "\\ekstra_yapilar\\Randomkullanimi"
   ],
-  "SelectedNode": "\\ekstra_yapilar\\Captcha\\Captcha.sln",
+  "SelectedNode": "\\ekstra_yapilar\\Randomkullanimi",
   "PreviewInSolutionExplorer": false
 }
