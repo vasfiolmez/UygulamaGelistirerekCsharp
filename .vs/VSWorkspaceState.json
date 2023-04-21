@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ekstra_yapilar",
     "\\ekstra_yapilar\\Captcha",
     "\\ekstra_yapilar\\Captcha\\Captcha"
   ],
+  "SelectedNode": "\\ekstra_yapilar\\Captcha\\Captcha.sln",
   "PreviewInSolutionExplorer": false
 }
