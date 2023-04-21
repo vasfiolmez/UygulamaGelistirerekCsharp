@@ -1,6 +1,6 @@
 ﻿namespace Captcha
 {
-    partial class Form1
+    partial class captcha
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,18 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
+            label1 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
-            // Form1
+            // label1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            label1.AutoSize = true;
+            label1.Font = new Font("Snap ITC", 21.75F, FontStyle.Italic, GraphicsUnit.Point);
+            label1.Location = new Point(116, 75);
+            label1.Name = "label1";
+            label1.Size = new Size(107, 37);
+            label1.TabIndex = 0;
+            label1.Text = "label1";
+            // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Location = new Point(97, 130);
+            button1.Name = "button1";
+            button1.Size = new Size(143, 32);
+            button1.TabIndex = 1;
+            button1.Text = "Captcha oluştur";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // captcha
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(542, 450);
-            Name = "Form1";
-            Text = "Form1";
+            ClientSize = new Size(358, 257);
+            Controls.Add(button1);
+            Controls.Add(label1);
+            Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "captcha";
+            Text = "Capcha oluşturma formu";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label label1;
+        private Button button1;
     }
 }

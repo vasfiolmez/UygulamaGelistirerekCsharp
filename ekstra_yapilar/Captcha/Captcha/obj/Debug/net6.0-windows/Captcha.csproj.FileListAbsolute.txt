@@ -1,0 +1,17 @@
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\bin\Debug\net6.0-windows\Captcha.exe
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\bin\Debug\net6.0-windows\Captcha.deps.json
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\bin\Debug\net6.0-windows\Captcha.runtimeconfig.json
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\bin\Debug\net6.0-windows\Captcha.dll
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\bin\Debug\net6.0-windows\Captcha.pdb
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\obj\Debug\net6.0-windows\Captcha.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\obj\Debug\net6.0-windows\Captcha.captcha.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\obj\Debug\net6.0-windows\Captcha.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\obj\Debug\net6.0-windows\Captcha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\obj\Debug\net6.0-windows\Captcha.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\obj\Debug\net6.0-windows\Captcha.AssemblyInfo.cs
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\obj\Debug\net6.0-windows\Captcha.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\obj\Debug\net6.0-windows\Captcha.dll
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\obj\Debug\net6.0-windows\refint\Captcha.dll
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\obj\Debug\net6.0-windows\Captcha.pdb
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\obj\Debug\net6.0-windows\Captcha.genruntimeconfig.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\Captcha\Captcha\obj\Debug\net6.0-windows\ref\Captcha.dll
