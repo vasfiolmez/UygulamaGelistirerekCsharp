@@ -109,8 +109,24 @@ namespace PersonelKayit
             SqlCommand komutsil= new SqlCommand("Delete From Tbl_Personel Where Per_id=@k1",baglanti);
             komutsil.Parameters.AddWithValue("@k1",txtİd.Text);
             komutsil.ExecuteNonQuery();
-
             baglanti.Close();
+        }
+
+        private void btnGüncelle_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand update = new SqlCommand("Update Tbl_Personel Set Per_ad=@a1,Per_soyad=@a2,Per_sehir=@a3,Per_maas=@a4,,Per_durum=@a5,Per_meslek=@a6 where Per_id=@a7",baglanti);
+            update.Parameters.AddWithValue("@a1",txtAd.Text);
+            update.Parameters.AddWithValue("@a2", txtAd.Text);
+            update.Parameters.AddWithValue("@a3", txtAd.Text);
+            update.Parameters.AddWithValue("@a4", txtAd.Text);
+            update.Parameters.AddWithValue("@a5", txtAd.Text);
+            update.Parameters.AddWithValue("@a6", txtAd.Text);
+            update.Parameters.AddWithValue("@a7", txtİd.Text);
+            update.ExecuteNonQuery();
+            baglanti.Close();
+            MessageBox.Show("Personel kayıtları güncellendi.");
+
         }
     }
 }
