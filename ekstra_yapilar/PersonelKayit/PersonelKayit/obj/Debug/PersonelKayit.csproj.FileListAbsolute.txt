@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\UygulamaGeliştirerekC#\ekstra_yapilar\PersonelKayit\PersonelKayit\bin\Debug\PersonelKayit.exe.config
+C:\Users\hp\Desktop\UygulamaGeliştirerekC#\ekstra_yapilar\PersonelKayit\PersonelKayit\bin\Debug\PersonelKayit.exe
+C:\Users\hp\Desktop\UygulamaGeliştirerekC#\ekstra_yapilar\PersonelKayit\PersonelKayit\bin\Debug\PersonelKayit.pdb
+C:\Users\hp\Desktop\UygulamaGeliştirerekC#\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\UygulamaGeliştirerekC#\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\UygulamaGeliştirerekC#\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.Form1.resources
+C:\Users\hp\Desktop\UygulamaGeliştirerekC#\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.Properties.Resources.resources
+C:\Users\hp\Desktop\UygulamaGeliştirerekC#\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\UygulamaGeliştirerekC#\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\UygulamaGeliştirerekC#\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.exe
+C:\Users\hp\Desktop\UygulamaGeliştirerekC#\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.pdb
