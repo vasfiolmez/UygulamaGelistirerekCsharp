@@ -128,5 +128,12 @@ namespace PersonelKayit
             MessageBox.Show("Personel kayıtları güncellendi.");
 
         }
+
+        private void btnİstatistik_Click(object sender, EventArgs e)
+        {
+            frmİstatistik istatistik = new frmİstatistik();
+            istatistik.Show();
+            
+        }
     }
 }
