@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -65,6 +66,12 @@
     <Compile Include="frmGrafikler.Designer.cs">
       <DependentUpon>frmGrafikler.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRaporlama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRaporlama.Designer.cs">
+      <DependentUpon>frmRaporlama.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmİstatistik.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmGrafikler.resx">
       <DependentUpon>frmGrafikler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRaporlama.resx">
+      <DependentUpon>frmRaporlama.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmİstatistik.resx">
       <DependentUpon>frmİstatistik.cs</DependentUpon>

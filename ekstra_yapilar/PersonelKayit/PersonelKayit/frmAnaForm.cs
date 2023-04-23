@@ -141,5 +141,11 @@ namespace PersonelKayit
            frmGrafikler grafikler = new frmGrafikler();
             grafikler.Show();
         }
+
+        private void btnRaporlama_Click(object sender, EventArgs e)
+        {
+            frmRaporlama rapor= new frmRaporlama();
+            rapor.Show();
+        }
     }
 }

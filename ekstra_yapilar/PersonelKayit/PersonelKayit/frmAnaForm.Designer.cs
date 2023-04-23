@@ -66,6 +66,7 @@
             this.tblPersonelBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.personelVeriTabaniDataSet = new PersonelKayit.PersonelVeriTabaniDataSet();
             this.tbl_PersonelTableAdapter = new PersonelKayit.PersonelVeriTabaniDataSetTableAdapters.Tbl_PersonelTableAdapter();
+            this.btnRaporlama = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -96,7 +97,7 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(314, 430);
+            this.groupBox1.Size = new System.Drawing.Size(314, 485);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Personel Kayıt";
@@ -260,6 +261,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnRaporlama);
             this.groupBox2.Controls.Add(this.btnGrafik);
             this.groupBox2.Controls.Add(this.btnİstatistik);
             this.groupBox2.Controls.Add(this.btnTemizle);
@@ -271,14 +273,14 @@
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(179, 430);
+            this.groupBox2.Size = new System.Drawing.Size(179, 485);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "İşlemler";
             // 
             // btnGrafik
             // 
-            this.btnGrafik.Location = new System.Drawing.Point(41, 374);
+            this.btnGrafik.Location = new System.Drawing.Point(43, 361);
             this.btnGrafik.Margin = new System.Windows.Forms.Padding(4);
             this.btnGrafik.Name = "btnGrafik";
             this.btnGrafik.Size = new System.Drawing.Size(100, 48);
@@ -289,7 +291,7 @@
             // 
             // btnİstatistik
             // 
-            this.btnİstatistik.Location = new System.Drawing.Point(41, 315);
+            this.btnİstatistik.Location = new System.Drawing.Point(43, 302);
             this.btnİstatistik.Margin = new System.Windows.Forms.Padding(4);
             this.btnİstatistik.Name = "btnİstatistik";
             this.btnİstatistik.Size = new System.Drawing.Size(100, 52);
@@ -300,7 +302,7 @@
             // 
             // btnTemizle
             // 
-            this.btnTemizle.Location = new System.Drawing.Point(41, 260);
+            this.btnTemizle.Location = new System.Drawing.Point(43, 247);
             this.btnTemizle.Margin = new System.Windows.Forms.Padding(4);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(100, 48);
@@ -311,7 +313,7 @@
             // 
             // btnGüncelle
             // 
-            this.btnGüncelle.Location = new System.Drawing.Point(41, 197);
+            this.btnGüncelle.Location = new System.Drawing.Point(43, 184);
             this.btnGüncelle.Margin = new System.Windows.Forms.Padding(4);
             this.btnGüncelle.Name = "btnGüncelle";
             this.btnGüncelle.Size = new System.Drawing.Size(100, 55);
@@ -322,7 +324,7 @@
             // 
             // btnSil
             // 
-            this.btnSil.Location = new System.Drawing.Point(41, 139);
+            this.btnSil.Location = new System.Drawing.Point(43, 126);
             this.btnSil.Margin = new System.Windows.Forms.Padding(4);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(100, 50);
@@ -333,7 +335,7 @@
             // 
             // btnKayıtEkle
             // 
-            this.btnKayıtEkle.Location = new System.Drawing.Point(41, 86);
+            this.btnKayıtEkle.Location = new System.Drawing.Point(43, 73);
             this.btnKayıtEkle.Margin = new System.Windows.Forms.Padding(4);
             this.btnKayıtEkle.Name = "btnKayıtEkle";
             this.btnKayıtEkle.Size = new System.Drawing.Size(100, 46);
@@ -344,7 +346,7 @@
             // 
             // btnList
             // 
-            this.btnList.Location = new System.Drawing.Point(41, 34);
+            this.btnList.Location = new System.Drawing.Point(43, 21);
             this.btnList.Margin = new System.Windows.Forms.Padding(4);
             this.btnList.Name = "btnList";
             this.btnList.Size = new System.Drawing.Size(100, 44);
@@ -360,7 +362,7 @@
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Size = new System.Drawing.Size(816, 429);
+            this.groupBox3.Size = new System.Drawing.Size(816, 485);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Kayıtlar";
@@ -382,7 +384,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(4, 19);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(808, 406);
+            this.dataGridView1.Size = new System.Drawing.Size(808, 462);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
@@ -443,12 +445,23 @@
             // 
             this.tbl_PersonelTableAdapter.ClearBeforeFill = true;
             // 
+            // btnRaporlama
+            // 
+            this.btnRaporlama.Location = new System.Drawing.Point(43, 416);
+            this.btnRaporlama.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRaporlama.Name = "btnRaporlama";
+            this.btnRaporlama.Size = new System.Drawing.Size(100, 48);
+            this.btnRaporlama.TabIndex = 7;
+            this.btnRaporlama.Text = "Raporlama";
+            this.btnRaporlama.UseVisualStyleBackColor = true;
+            this.btnRaporlama.Click += new System.EventHandler(this.btnRaporlama_Click);
+            // 
             // frmAnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1369, 462);
+            this.ClientSize = new System.Drawing.Size(1369, 513);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -507,6 +520,7 @@
         private System.Windows.Forms.DataGridViewCheckBoxColumn perdurumDataGridViewCheckBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn permeslekDataGridViewTextBoxColumn;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnRaporlama;
     }
 }
 
