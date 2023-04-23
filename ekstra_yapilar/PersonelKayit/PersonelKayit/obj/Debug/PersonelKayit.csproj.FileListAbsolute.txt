@@ -14,10 +14,12 @@ C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\Pers
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\PersonelKayit\bin\Debug\PersonelKayit.pdb
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.csproj.AssemblyReference.cache
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.csproj.SuggestedBindingRedirects.cache
-C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.Form1.resources
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.Properties.Resources.resources
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.csproj.GenerateResource.cache
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.csproj.CoreCompileInputs.cache
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.exe
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.pdb
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.frmİstatistik.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.frmAnaForm.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.frmGrafikler.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\ekstra_yapilar\PersonelKayit\PersonelKayit\obj\Debug\PersonelKayit.frmGiris.resources

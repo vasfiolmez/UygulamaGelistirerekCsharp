@@ -1,6 +1,6 @@
 ﻿namespace PersonelKayit
 {
-    partial class Form1
+    partial class frmAnaForm
     {
         /// <summary>
         /// Required designer variable.
@@ -285,6 +285,7 @@
             this.btnGrafik.TabIndex = 6;
             this.btnGrafik.Text = "Grafikler";
             this.btnGrafik.UseVisualStyleBackColor = true;
+            this.btnGrafik.Click += new System.EventHandler(this.btnGrafik_Click);
             // 
             // btnİstatistik
             // 
@@ -442,7 +443,7 @@
             // 
             this.tbl_PersonelTableAdapter.ClearBeforeFill = true;
             // 
-            // Form1
+            // frmAnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -453,7 +454,7 @@
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "frmAnaForm";
             this.Text = "Personel Kayit";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);

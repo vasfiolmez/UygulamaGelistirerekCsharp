@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace PersonelKayit
 {
-    public partial class Form1 : Form
+    public partial class frmAnaForm : Form
     {
-        public Form1()
+        public frmAnaForm()
         {
             InitializeComponent();
         }
@@ -134,6 +134,12 @@ namespace PersonelKayit
             frmİstatistik istatistik = new frmİstatistik();
             istatistik.Show();
             
+        }
+
+        private void btnGrafik_Click(object sender, EventArgs e)
+        {
+           frmGrafikler grafikler = new frmGrafikler();
+            grafikler.Show();
         }
     }
 }
