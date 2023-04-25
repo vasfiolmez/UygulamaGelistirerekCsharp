@@ -1,0 +1,16 @@
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\bin\Debug\Pdf.exe.config
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\bin\Debug\Pdf.exe
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\bin\Debug\Pdf.pdb
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\obj\Debug\Pdf.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\obj\Debug\Pdf.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\obj\Debug\Pdf.csproj.ResolveComReference.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\obj\Debug\Pdf.Form1.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\obj\Debug\Pdf.Properties.Resources.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\obj\Debug\Pdf.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\obj\Debug\Pdf.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\obj\Debug\Pdf.exe
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Pdf\Pdf\obj\Debug\Pdf.pdb

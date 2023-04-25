@@ -27,8 +27,7 @@ namespace Metin_belgesi_kayıt
             StreamWriter sw= new StreamWriter(saveFileDialog1.FileName);
             sw.WriteLine(richTextBox1.Text);
             sw.Close();
-            MessageBox.Show("Belge oluşturuldu.");
-            
+            MessageBox.Show("Belge oluşturuldu.");  
             
         }
     }
