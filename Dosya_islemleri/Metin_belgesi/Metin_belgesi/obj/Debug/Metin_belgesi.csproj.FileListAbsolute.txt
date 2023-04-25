@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Metin_belgesi\Metin_belgesi\bin\Debug\Metin_belgesi.exe.config
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Metin_belgesi\Metin_belgesi\bin\Debug\Metin_belgesi.exe
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Metin_belgesi\Metin_belgesi\bin\Debug\Metin_belgesi.pdb
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Metin_belgesi\Metin_belgesi\obj\Debug\Metin_belgesi.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Metin_belgesi\Metin_belgesi\obj\Debug\Metin_belgesi.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Metin_belgesi\Metin_belgesi\obj\Debug\Metin_belgesi.Form1.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Metin_belgesi\Metin_belgesi\obj\Debug\Metin_belgesi.Properties.Resources.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Metin_belgesi\Metin_belgesi\obj\Debug\Metin_belgesi.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Metin_belgesi\Metin_belgesi\obj\Debug\Metin_belgesi.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Metin_belgesi\Metin_belgesi\obj\Debug\Metin_belgesi.exe
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\Dosya_islemleri\Metin_belgesi\Metin_belgesi\obj\Debug\Metin_belgesi.pdb
