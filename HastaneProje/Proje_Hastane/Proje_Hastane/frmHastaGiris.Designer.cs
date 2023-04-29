@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHastaGiris));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -71,7 +72,7 @@
             this.mskTC.Mask = "00000000000";
             this.mskTC.Name = "mskTC";
             this.mskTC.Size = new System.Drawing.Size(168, 31);
-            this.mskTC.TabIndex = 5;
+            this.mskTC.TabIndex = 1;
             this.mskTC.ValidatingType = typeof(int);
             // 
             // txtSifre
@@ -79,7 +80,8 @@
             this.txtSifre.Location = new System.Drawing.Point(189, 151);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(167, 31);
-            this.txtSifre.TabIndex = 6;
+            this.txtSifre.TabIndex = 2;
+            this.txtSifre.UseSystemPasswordChar = true;
             // 
             // btnGiris
             // 
@@ -89,6 +91,7 @@
             this.btnGiris.TabIndex = 7;
             this.btnGiris.Text = "Giriş Yap";
             this.btnGiris.UseVisualStyleBackColor = true;
+            this.btnGiris.Click += new System.EventHandler(this.btnGiris_Click);
             // 
             // lnkUyeOl
             // 
@@ -99,11 +102,14 @@
             this.lnkUyeOl.TabIndex = 8;
             this.lnkUyeOl.TabStop = true;
             this.lnkUyeOl.Text = "Üye ol";
+            this.lnkUyeOl.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkUyeOl_LinkClicked);
             // 
             // frmHastaGiris
             // 
+            this.AcceptButton = this.btnGiris;
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(506, 292);
             this.Controls.Add(this.lnkUyeOl);
             this.Controls.Add(this.btnGiris);
@@ -113,9 +119,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "frmHastaGiris";
-            this.Text = "frmHastaGiris";
+            this.Text = "Hasta Girişi";
             this.ResumeLayout(false);
             this.PerformLayout();
 

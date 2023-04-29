@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHastaKayıt));
             this.txtAd = new System.Windows.Forms.TextBox();
             this.mskTC = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -48,7 +49,7 @@
             this.txtAd.Location = new System.Drawing.Point(197, 39);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(167, 31);
-            this.txtAd.TabIndex = 10;
+            this.txtAd.TabIndex = 1;
             // 
             // mskTC
             // 
@@ -56,7 +57,7 @@
             this.mskTC.Mask = "00000000000";
             this.mskTC.Name = "mskTC";
             this.mskTC.Size = new System.Drawing.Size(168, 31);
-            this.mskTC.TabIndex = 9;
+            this.mskTC.TabIndex = 3;
             this.mskTC.ValidatingType = typeof(int);
             // 
             // label3
@@ -82,7 +83,7 @@
             this.txtSoyad.Location = new System.Drawing.Point(197, 87);
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(167, 31);
-            this.txtSoyad.TabIndex = 12;
+            this.txtSoyad.TabIndex = 2;
             // 
             // label1
             // 
@@ -107,7 +108,7 @@
             this.txtSifre.Location = new System.Drawing.Point(198, 226);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(167, 31);
-            this.txtSifre.TabIndex = 16;
+            this.txtSifre.TabIndex = 5;
             // 
             // label5
             // 
@@ -124,7 +125,7 @@
             this.mskTelno.Mask = "(999) 000-0000";
             this.mskTelno.Name = "mskTelno";
             this.mskTelno.Size = new System.Drawing.Size(168, 31);
-            this.mskTelno.TabIndex = 9;
+            this.mskTelno.TabIndex = 4;
             // 
             // cmbCinsiyet
             // 
@@ -135,7 +136,7 @@
             this.cmbCinsiyet.Location = new System.Drawing.Point(197, 274);
             this.cmbCinsiyet.Name = "cmbCinsiyet";
             this.cmbCinsiyet.Size = new System.Drawing.Size(168, 31);
-            this.cmbCinsiyet.TabIndex = 17;
+            this.cmbCinsiyet.TabIndex = 6;
             // 
             // label6
             // 
@@ -152,14 +153,17 @@
             this.btnKayıtYap.Location = new System.Drawing.Point(197, 332);
             this.btnKayıtYap.Name = "btnKayıtYap";
             this.btnKayıtYap.Size = new System.Drawing.Size(168, 47);
-            this.btnKayıtYap.TabIndex = 18;
+            this.btnKayıtYap.TabIndex = 7;
             this.btnKayıtYap.Text = "Kayıt Yap";
             this.btnKayıtYap.UseVisualStyleBackColor = false;
+            this.btnKayıtYap.Click += new System.EventHandler(this.btnKayıtYap_Click);
             // 
             // frmHastaKayıt
             // 
+            this.AcceptButton = this.btnKayıtYap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(505, 425);
             this.Controls.Add(this.btnKayıtYap);
@@ -176,9 +180,12 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(5);
+            this.MaximizeBox = false;
             this.Name = "frmHastaKayıt";
-            this.Text = "frmHastaKayıt";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Hasta Kayıt";
             this.ResumeLayout(false);
             this.PerformLayout();
 

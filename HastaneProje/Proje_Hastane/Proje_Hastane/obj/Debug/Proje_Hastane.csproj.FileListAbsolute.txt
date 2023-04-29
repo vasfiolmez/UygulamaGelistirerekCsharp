@@ -21,3 +21,4 @@ C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\HastaneProje\Proje_Hastane\Proje_
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\HastaneProje\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.frmHastaKayıt.resources
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\HastaneProje\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.frmSekreterDetay.resources
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\HastaneProje\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.frmSekreterGiris.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\HastaneProje\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.frmRandevuListesi.resources

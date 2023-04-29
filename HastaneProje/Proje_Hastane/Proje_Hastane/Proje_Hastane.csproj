@@ -112,6 +112,12 @@
     <Compile Include="frmHastaKayıt.Designer.cs">
       <DependentUpon>frmHastaKayıt.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRandevuListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRandevuListesi.Designer.cs">
+      <DependentUpon>frmRandevuListesi.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSekreterDetay.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlBaglantisi.cs" />
     <EmbeddedResource Include="frmAnasayfa.resx">
       <DependentUpon>frmAnasayfa.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmHastaKayıt.resx">
       <DependentUpon>frmHastaKayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRandevuListesi.resx">
+      <DependentUpon>frmRandevuListesi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSekreterDetay.resx">
       <DependentUpon>frmSekreterDetay.cs</DependentUpon>
