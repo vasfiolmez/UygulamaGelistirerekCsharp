@@ -45,8 +45,36 @@ namespace Proje_Hastane
             {
                 cmbBrans.Items.Add(dr2[0]);            
             }
+            bgl.baglanti().Close();  
+        }
+
+        private void cmbBrans_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmbDoktor.Items.Clear();     
+            SqlCommand cmd3 = new SqlCommand("Select DoktorAd,DoktorSoyad From Tbl_Doktorlar where DoktorBrans=@p1", bgl.baglanti());
+            cmd3.Parameters.AddWithValue("@p1",cmbBrans.Text);
+            SqlDataReader dr3= cmd3.ExecuteReader();
+            while (dr3.Read()) 
+            {
+                cmbDoktor.Items.Add(dr3[0]+"  " + dr3[1]);
+            }
             bgl.baglanti().Close();
-     
+        }
+
+        private void cmbDoktor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            SqlDataAdapter d = new SqlDataAdapter("select * From Tbl_Randevu where RandevuBrans='"+cmbBrans.Text+"'",bgl.baglanti());
+            d.Fill(dt);
+            dataGridView2.DataSource = dt;
+        }
+
+        private void lblBilgiDuzenle_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmBilgiDuzenle fr=new frmBilgiDuzenle();
+            fr.TCno = lblTC.Text;
+            fr.Show();
+            this.Hide();
         }
     }
 }

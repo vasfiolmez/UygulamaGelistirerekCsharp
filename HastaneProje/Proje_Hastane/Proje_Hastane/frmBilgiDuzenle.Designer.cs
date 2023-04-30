@@ -46,7 +46,7 @@
             // btnBilgiGuncelle
             // 
             this.btnBilgiGuncelle.BackColor = System.Drawing.Color.RosyBrown;
-            this.btnBilgiGuncelle.Location = new System.Drawing.Point(163, 362);
+            this.btnBilgiGuncelle.Location = new System.Drawing.Point(163, 348);
             this.btnBilgiGuncelle.Name = "btnBilgiGuncelle";
             this.btnBilgiGuncelle.Size = new System.Drawing.Size(168, 47);
             this.btnBilgiGuncelle.TabIndex = 31;
@@ -59,14 +59,14 @@
             this.cmbCinsiyet.Items.AddRange(new object[] {
             "Erkek",
             "Kadın"});
-            this.cmbCinsiyet.Location = new System.Drawing.Point(163, 309);
+            this.cmbCinsiyet.Location = new System.Drawing.Point(163, 295);
             this.cmbCinsiyet.Name = "cmbCinsiyet";
             this.cmbCinsiyet.Size = new System.Drawing.Size(168, 31);
             this.cmbCinsiyet.TabIndex = 30;
             // 
             // txtSifre
             // 
-            this.txtSifre.Location = new System.Drawing.Point(164, 261);
+            this.txtSifre.Location = new System.Drawing.Point(164, 247);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(167, 31);
             this.txtSifre.TabIndex = 29;
@@ -74,7 +74,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(80, 309);
+            this.label6.Location = new System.Drawing.Point(80, 295);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(77, 23);
             this.label6.TabIndex = 27;
@@ -83,7 +83,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(107, 261);
+            this.label5.Location = new System.Drawing.Point(107, 247);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(50, 23);
             this.label5.TabIndex = 28;
@@ -92,7 +92,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(84, 216);
+            this.label4.Location = new System.Drawing.Point(84, 202);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(73, 23);
             this.label4.TabIndex = 26;
@@ -100,7 +100,7 @@
             // 
             // txtSoyad
             // 
-            this.txtSoyad.Location = new System.Drawing.Point(163, 122);
+            this.txtSoyad.Location = new System.Drawing.Point(163, 108);
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(167, 31);
             this.txtSoyad.TabIndex = 25;
@@ -108,7 +108,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(99, 125);
+            this.label1.Location = new System.Drawing.Point(99, 111);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 23);
             this.label1.TabIndex = 24;
@@ -116,14 +116,14 @@
             // 
             // txtAd
             // 
-            this.txtAd.Location = new System.Drawing.Point(163, 74);
+            this.txtAd.Location = new System.Drawing.Point(163, 60);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(167, 31);
             this.txtAd.TabIndex = 23;
             // 
             // mskTelno
             // 
-            this.mskTelno.Location = new System.Drawing.Point(163, 216);
+            this.mskTelno.Location = new System.Drawing.Point(163, 202);
             this.mskTelno.Mask = "(999) 000-0000";
             this.mskTelno.Name = "mskTelno";
             this.mskTelno.Size = new System.Drawing.Size(168, 31);
@@ -131,7 +131,7 @@
             // 
             // mskTC
             // 
-            this.mskTC.Location = new System.Drawing.Point(163, 171);
+            this.mskTC.Location = new System.Drawing.Point(163, 157);
             this.mskTC.Mask = "00000000000";
             this.mskTC.Name = "mskTC";
             this.mskTC.Size = new System.Drawing.Size(168, 31);
@@ -141,7 +141,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(120, 74);
+            this.label3.Location = new System.Drawing.Point(120, 60);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 23);
             this.label3.TabIndex = 20;
@@ -150,7 +150,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(40, 174);
+            this.label2.Location = new System.Drawing.Point(40, 160);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 23);
             this.label2.TabIndex = 19;
@@ -161,7 +161,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(431, 495);
+            this.ClientSize = new System.Drawing.Size(431, 434);
             this.Controls.Add(this.btnBilgiGuncelle);
             this.Controls.Add(this.cmbCinsiyet);
             this.Controls.Add(this.txtSifre);
@@ -176,9 +176,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmBilgiDuzenle";
             this.Text = "frmBilgiDuzenle";
+            this.Load += new System.EventHandler(this.frmBilgiDuzenle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
