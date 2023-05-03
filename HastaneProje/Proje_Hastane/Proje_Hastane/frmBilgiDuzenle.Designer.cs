@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBilgiDuzenle));
             this.btnBilgiGuncelle = new System.Windows.Forms.Button();
             this.cmbCinsiyet = new System.Windows.Forms.ComboBox();
             this.txtSifre = new System.Windows.Forms.TextBox();
@@ -52,6 +53,7 @@
             this.btnBilgiGuncelle.TabIndex = 31;
             this.btnBilgiGuncelle.Text = "Güncelle";
             this.btnBilgiGuncelle.UseVisualStyleBackColor = false;
+            this.btnBilgiGuncelle.Click += new System.EventHandler(this.btnBilgiGuncelle_Click);
             // 
             // cmbCinsiyet
             // 
@@ -160,6 +162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(431, 434);
             this.Controls.Add(this.btnBilgiGuncelle);
@@ -176,9 +179,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
+            this.MaximizeBox = false;
             this.Name = "frmBilgiDuzenle";
-            this.Text = "frmBilgiDuzenle";
+            this.Text = "Bilgi Güncelleme";
             this.Load += new System.EventHandler(this.frmBilgiDuzenle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSekreterGiris));
             this.btnGiris = new System.Windows.Forms.Button();
             this.txtSifre = new System.Windows.Forms.TextBox();
             this.mskTC = new System.Windows.Forms.MaskedTextBox();
@@ -41,16 +42,18 @@
             this.btnGiris.Location = new System.Drawing.Point(210, 204);
             this.btnGiris.Name = "btnGiris";
             this.btnGiris.Size = new System.Drawing.Size(124, 37);
-            this.btnGiris.TabIndex = 20;
+            this.btnGiris.TabIndex = 3;
             this.btnGiris.Text = "Giriş Yap";
             this.btnGiris.UseVisualStyleBackColor = true;
+            this.btnGiris.Click += new System.EventHandler(this.btnGiris_Click);
             // 
             // txtSifre
             // 
             this.txtSifre.Location = new System.Drawing.Point(167, 158);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(167, 31);
-            this.txtSifre.TabIndex = 19;
+            this.txtSifre.TabIndex = 2;
+            this.txtSifre.UseSystemPasswordChar = true;
             // 
             // mskTC
             // 
@@ -58,7 +61,7 @@
             this.mskTC.Mask = "00000000000";
             this.mskTC.Name = "mskTC";
             this.mskTC.Size = new System.Drawing.Size(168, 31);
-            this.mskTC.TabIndex = 18;
+            this.mskTC.TabIndex = 1;
             this.mskTC.ValidatingType = typeof(int);
             // 
             // label3
@@ -91,8 +94,11 @@
             // 
             // frmSekreterGiris
             // 
+            this.AcceptButton = this.btnGiris;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(382, 278);
             this.Controls.Add(this.btnGiris);
             this.Controls.Add(this.txtSifre);
@@ -101,8 +107,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(5);
+            this.MaximizeBox = false;
             this.Name = "frmSekreterGiris";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sekreter Girişi";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -37,35 +37,35 @@
             this.btnOlustur = new System.Windows.Forms.Button();
             this.rchDuyuru = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnGuncelle = new System.Windows.Forms.Button();
+            this.btnkaydet = new System.Windows.Forms.Button();
+            this.cbDurum = new System.Windows.Forms.CheckBox();
+            this.msbTC = new System.Windows.Forms.MaskedTextBox();
+            this.cmbDoktor = new System.Windows.Forms.ComboBox();
+            this.cmbBrans = new System.Windows.Forms.ComboBox();
+            this.msbSaat = new System.Windows.Forms.MaskedTextBox();
+            this.msbTarih = new System.Windows.Forms.MaskedTextBox();
+            this.txtİd = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtİd = new System.Windows.Forms.TextBox();
-            this.msbTarih = new System.Windows.Forms.MaskedTextBox();
-            this.msbSaat = new System.Windows.Forms.MaskedTextBox();
-            this.cmbBrans = new System.Windows.Forms.ComboBox();
-            this.smbDoktor = new System.Windows.Forms.ComboBox();
-            this.msbTC = new System.Windows.Forms.MaskedTextBox();
-            this.cbDurum = new System.Windows.Forms.CheckBox();
-            this.btnkaydet = new System.Windows.Forms.Button();
-            this.btnGuncelle = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.btnDoktorpanel = new System.Windows.Forms.Button();
-            this.btnBransPanel = new System.Windows.Forms.Button();
             this.btnRandevuListe = new System.Windows.Forms.Button();
+            this.btnBransPanel = new System.Windows.Forms.Button();
+            this.btnDoktorpanel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.groupBox6.SuspendLayout();
             this.SuspendLayout();
@@ -138,6 +138,7 @@
             this.btnOlustur.TabIndex = 1;
             this.btnOlustur.Text = "Oluştur";
             this.btnOlustur.UseVisualStyleBackColor = true;
+            this.btnOlustur.Click += new System.EventHandler(this.btnOlustur_Click);
             // 
             // rchDuyuru
             // 
@@ -153,7 +154,7 @@
             this.groupBox3.Controls.Add(this.btnkaydet);
             this.groupBox3.Controls.Add(this.cbDurum);
             this.groupBox3.Controls.Add(this.msbTC);
-            this.groupBox3.Controls.Add(this.smbDoktor);
+            this.groupBox3.Controls.Add(this.cmbDoktor);
             this.groupBox3.Controls.Add(this.cmbBrans);
             this.groupBox3.Controls.Add(this.msbSaat);
             this.groupBox3.Controls.Add(this.msbTarih);
@@ -170,6 +171,86 @@
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Randevu Paneli";
+            // 
+            // btnGuncelle
+            // 
+            this.btnGuncelle.Location = new System.Drawing.Point(104, 422);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(154, 44);
+            this.btnGuncelle.TabIndex = 8;
+            this.btnGuncelle.Text = "Güncelle";
+            this.btnGuncelle.UseVisualStyleBackColor = true;
+            // 
+            // btnkaydet
+            // 
+            this.btnkaydet.Location = new System.Drawing.Point(104, 367);
+            this.btnkaydet.Name = "btnkaydet";
+            this.btnkaydet.Size = new System.Drawing.Size(154, 44);
+            this.btnkaydet.TabIndex = 7;
+            this.btnkaydet.Text = "Kaydet";
+            this.btnkaydet.UseVisualStyleBackColor = true;
+            this.btnkaydet.Click += new System.EventHandler(this.btnkaydet_Click);
+            // 
+            // cbDurum
+            // 
+            this.cbDurum.AutoSize = true;
+            this.cbDurum.Location = new System.Drawing.Point(108, 312);
+            this.cbDurum.Name = "cbDurum";
+            this.cbDurum.Size = new System.Drawing.Size(84, 27);
+            this.cbDurum.TabIndex = 5;
+            this.cbDurum.Text = "Durum";
+            this.cbDurum.UseVisualStyleBackColor = true;
+            // 
+            // msbTC
+            // 
+            this.msbTC.Location = new System.Drawing.Point(108, 275);
+            this.msbTC.Mask = "00000000000";
+            this.msbTC.Name = "msbTC";
+            this.msbTC.Size = new System.Drawing.Size(150, 31);
+            this.msbTC.TabIndex = 6;
+            this.msbTC.ValidatingType = typeof(int);
+            // 
+            // cmbDoktor
+            // 
+            this.cmbDoktor.FormattingEnabled = true;
+            this.cmbDoktor.Location = new System.Drawing.Point(107, 229);
+            this.cmbDoktor.Name = "cmbDoktor";
+            this.cmbDoktor.Size = new System.Drawing.Size(151, 31);
+            this.cmbDoktor.TabIndex = 5;
+            // 
+            // cmbBrans
+            // 
+            this.cmbBrans.FormattingEnabled = true;
+            this.cmbBrans.Location = new System.Drawing.Point(107, 185);
+            this.cmbBrans.Name = "cmbBrans";
+            this.cmbBrans.Size = new System.Drawing.Size(151, 31);
+            this.cmbBrans.TabIndex = 4;
+            this.cmbBrans.SelectedIndexChanged += new System.EventHandler(this.cmbBrans_SelectedIndexChanged);
+            // 
+            // msbSaat
+            // 
+            this.msbSaat.Location = new System.Drawing.Point(108, 147);
+            this.msbSaat.Mask = "00:00";
+            this.msbSaat.Name = "msbSaat";
+            this.msbSaat.Size = new System.Drawing.Size(150, 31);
+            this.msbSaat.TabIndex = 3;
+            this.msbSaat.ValidatingType = typeof(System.DateTime);
+            // 
+            // msbTarih
+            // 
+            this.msbTarih.Location = new System.Drawing.Point(108, 107);
+            this.msbTarih.Mask = "00/00/0000";
+            this.msbTarih.Name = "msbTarih";
+            this.msbTarih.Size = new System.Drawing.Size(150, 31);
+            this.msbTarih.TabIndex = 2;
+            this.msbTarih.ValidatingType = typeof(System.DateTime);
+            // 
+            // txtİd
+            // 
+            this.txtİd.Location = new System.Drawing.Point(107, 61);
+            this.txtİd.Name = "txtİd";
+            this.txtİd.Size = new System.Drawing.Size(151, 31);
+            this.txtİd.TabIndex = 1;
             // 
             // label8
             // 
@@ -225,84 +306,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "İd:";
             // 
-            // txtİd
-            // 
-            this.txtİd.Location = new System.Drawing.Point(107, 61);
-            this.txtİd.Name = "txtİd";
-            this.txtİd.Size = new System.Drawing.Size(151, 31);
-            this.txtİd.TabIndex = 1;
-            // 
-            // msbTarih
-            // 
-            this.msbTarih.Location = new System.Drawing.Point(108, 107);
-            this.msbTarih.Mask = "00/00/0000";
-            this.msbTarih.Name = "msbTarih";
-            this.msbTarih.Size = new System.Drawing.Size(150, 31);
-            this.msbTarih.TabIndex = 2;
-            this.msbTarih.ValidatingType = typeof(System.DateTime);
-            // 
-            // msbSaat
-            // 
-            this.msbSaat.Location = new System.Drawing.Point(108, 147);
-            this.msbSaat.Mask = "00:00";
-            this.msbSaat.Name = "msbSaat";
-            this.msbSaat.Size = new System.Drawing.Size(150, 31);
-            this.msbSaat.TabIndex = 2;
-            this.msbSaat.ValidatingType = typeof(System.DateTime);
-            // 
-            // cmbBrans
-            // 
-            this.cmbBrans.FormattingEnabled = true;
-            this.cmbBrans.Location = new System.Drawing.Point(107, 185);
-            this.cmbBrans.Name = "cmbBrans";
-            this.cmbBrans.Size = new System.Drawing.Size(151, 31);
-            this.cmbBrans.TabIndex = 3;
-            // 
-            // smbDoktor
-            // 
-            this.smbDoktor.FormattingEnabled = true;
-            this.smbDoktor.Location = new System.Drawing.Point(107, 229);
-            this.smbDoktor.Name = "smbDoktor";
-            this.smbDoktor.Size = new System.Drawing.Size(151, 31);
-            this.smbDoktor.TabIndex = 3;
-            // 
-            // msbTC
-            // 
-            this.msbTC.Location = new System.Drawing.Point(108, 275);
-            this.msbTC.Mask = "00000000000";
-            this.msbTC.Name = "msbTC";
-            this.msbTC.Size = new System.Drawing.Size(150, 31);
-            this.msbTC.TabIndex = 4;
-            this.msbTC.ValidatingType = typeof(int);
-            // 
-            // cbDurum
-            // 
-            this.cbDurum.AutoSize = true;
-            this.cbDurum.Location = new System.Drawing.Point(108, 312);
-            this.cbDurum.Name = "cbDurum";
-            this.cbDurum.Size = new System.Drawing.Size(84, 27);
-            this.cbDurum.TabIndex = 5;
-            this.cbDurum.Text = "Durum";
-            this.cbDurum.UseVisualStyleBackColor = true;
-            // 
-            // btnkaydet
-            // 
-            this.btnkaydet.Location = new System.Drawing.Point(104, 367);
-            this.btnkaydet.Name = "btnkaydet";
-            this.btnkaydet.Size = new System.Drawing.Size(154, 44);
-            this.btnkaydet.TabIndex = 6;
-            this.btnkaydet.Text = "Kaydet";
-            this.btnkaydet.UseVisualStyleBackColor = true;
-            // 
-            // btnGuncelle
-            // 
-            this.btnGuncelle.Location = new System.Drawing.Point(104, 422);
-            this.btnGuncelle.Name = "btnGuncelle";
-            this.btnGuncelle.Size = new System.Drawing.Size(154, 44);
-            this.btnGuncelle.TabIndex = 6;
-            this.btnGuncelle.Text = "Güncelle";
-            this.btnGuncelle.UseVisualStyleBackColor = true;
-            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.dataGridView1);
@@ -312,6 +315,16 @@
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Branşlar";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 27);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(544, 239);
+            this.dataGridView1.TabIndex = 0;
             // 
             // groupBox5
             // 
@@ -323,17 +336,9 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Doktorlar";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 27);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(544, 239);
-            this.dataGridView1.TabIndex = 0;
-            // 
             // dataGridView2
             // 
+            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.Location = new System.Drawing.Point(3, 27);
@@ -353,14 +358,14 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Hızlı Erişim";
             // 
-            // btnDoktorpanel
+            // btnRandevuListe
             // 
-            this.btnDoktorpanel.Location = new System.Drawing.Point(114, 30);
-            this.btnDoktorpanel.Name = "btnDoktorpanel";
-            this.btnDoktorpanel.Size = new System.Drawing.Size(124, 39);
-            this.btnDoktorpanel.TabIndex = 0;
-            this.btnDoktorpanel.Text = "Doktor Paneli";
-            this.btnDoktorpanel.UseVisualStyleBackColor = true;
+            this.btnRandevuListe.Location = new System.Drawing.Point(374, 30);
+            this.btnRandevuListe.Name = "btnRandevuListe";
+            this.btnRandevuListe.Size = new System.Drawing.Size(138, 39);
+            this.btnRandevuListe.TabIndex = 0;
+            this.btnRandevuListe.Text = "Randevu Liste";
+            this.btnRandevuListe.UseVisualStyleBackColor = true;
             // 
             // btnBransPanel
             // 
@@ -371,14 +376,15 @@
             this.btnBransPanel.Text = "Branş Paneli";
             this.btnBransPanel.UseVisualStyleBackColor = true;
             // 
-            // btnRandevuListe
+            // btnDoktorpanel
             // 
-            this.btnRandevuListe.Location = new System.Drawing.Point(374, 30);
-            this.btnRandevuListe.Name = "btnRandevuListe";
-            this.btnRandevuListe.Size = new System.Drawing.Size(138, 39);
-            this.btnRandevuListe.TabIndex = 0;
-            this.btnRandevuListe.Text = "Randevu Liste";
-            this.btnRandevuListe.UseVisualStyleBackColor = true;
+            this.btnDoktorpanel.Location = new System.Drawing.Point(114, 30);
+            this.btnDoktorpanel.Name = "btnDoktorpanel";
+            this.btnDoktorpanel.Size = new System.Drawing.Size(124, 39);
+            this.btnDoktorpanel.TabIndex = 0;
+            this.btnDoktorpanel.Text = "Doktor Paneli";
+            this.btnDoktorpanel.UseVisualStyleBackColor = true;
+            this.btnDoktorpanel.Click += new System.EventHandler(this.btnDoktorpanel_Click);
             // 
             // frmSekreterDetay
             // 
@@ -396,14 +402,15 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmSekreterDetay";
             this.Text = "Sekreter Detay";
+            this.Load += new System.EventHandler(this.frmSekreterDetay_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.groupBox6.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -431,7 +438,7 @@
         private System.Windows.Forms.Button btnkaydet;
         private System.Windows.Forms.CheckBox cbDurum;
         private System.Windows.Forms.MaskedTextBox msbTC;
-        private System.Windows.Forms.ComboBox smbDoktor;
+        private System.Windows.Forms.ComboBox cmbDoktor;
         private System.Windows.Forms.ComboBox cmbBrans;
         private System.Windows.Forms.MaskedTextBox msbSaat;
         private System.Windows.Forms.MaskedTextBox msbTarih;

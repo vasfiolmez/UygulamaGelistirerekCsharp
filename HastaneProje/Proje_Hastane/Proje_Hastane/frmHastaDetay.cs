@@ -73,8 +73,8 @@ namespace Proje_Hastane
         {
             frmBilgiDuzenle fr=new frmBilgiDuzenle();
             fr.TCno = lblTC.Text;
-            fr.Show();
-            this.Hide();
+            fr.ShowDialog();
+            
         }
     }
 }
