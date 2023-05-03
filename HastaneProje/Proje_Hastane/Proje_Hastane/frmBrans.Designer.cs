@@ -32,8 +32,8 @@
             this.btnGuncelle = new System.Windows.Forms.Button();
             this.btnSil = new System.Windows.Forms.Button();
             this.btnEkle = new System.Windows.Forms.Button();
-            this.txtSoyad = new System.Windows.Forms.TextBox();
-            this.txtAd = new System.Windows.Forms.TextBox();
+            this.txtBrans = new System.Windows.Forms.TextBox();
+            this.txtBransid = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -41,11 +41,13 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(273, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(452, 191);
             this.dataGridView1.TabIndex = 20;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // btnGuncelle
             // 
@@ -56,6 +58,7 @@
             this.btnGuncelle.TabIndex = 17;
             this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.UseVisualStyleBackColor = false;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // btnSil
             // 
@@ -66,6 +69,7 @@
             this.btnSil.TabIndex = 18;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = false;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnEkle
             // 
@@ -76,20 +80,21 @@
             this.btnEkle.TabIndex = 19;
             this.btnEkle.Text = "Ekle";
             this.btnEkle.UseVisualStyleBackColor = false;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
-            // txtSoyad
+            // txtBrans
             // 
-            this.txtSoyad.Location = new System.Drawing.Point(99, 63);
-            this.txtSoyad.Name = "txtSoyad";
-            this.txtSoyad.Size = new System.Drawing.Size(132, 31);
-            this.txtSoyad.TabIndex = 12;
+            this.txtBrans.Location = new System.Drawing.Point(99, 63);
+            this.txtBrans.Name = "txtBrans";
+            this.txtBrans.Size = new System.Drawing.Size(132, 31);
+            this.txtBrans.TabIndex = 12;
             // 
-            // txtAd
+            // txtBransid
             // 
-            this.txtAd.Location = new System.Drawing.Point(99, 15);
-            this.txtAd.Name = "txtAd";
-            this.txtAd.Size = new System.Drawing.Size(132, 31);
-            this.txtAd.TabIndex = 13;
+            this.txtBransid.Location = new System.Drawing.Point(99, 15);
+            this.txtBransid.Name = "txtBransid";
+            this.txtBransid.Size = new System.Drawing.Size(132, 31);
+            this.txtBransid.TabIndex = 13;
             // 
             // label2
             // 
@@ -113,20 +118,24 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(742, 228);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnGuncelle);
             this.Controls.Add(this.btnSil);
             this.Controls.Add(this.btnEkle);
-            this.Controls.Add(this.txtSoyad);
-            this.Controls.Add(this.txtAd);
+            this.Controls.Add(this.txtBrans);
+            this.Controls.Add(this.txtBransid);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
+            this.MaximizeBox = false;
             this.Name = "frmBrans";
-            this.Text = "Branşlar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Branş Paneli";
+            this.Load += new System.EventHandler(this.frmBrans_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -139,8 +148,8 @@
         private System.Windows.Forms.Button btnGuncelle;
         private System.Windows.Forms.Button btnSil;
         private System.Windows.Forms.Button btnEkle;
-        private System.Windows.Forms.TextBox txtSoyad;
-        private System.Windows.Forms.TextBox txtAd;
+        private System.Windows.Forms.TextBox txtBrans;
+        private System.Windows.Forms.TextBox txtBransid;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }

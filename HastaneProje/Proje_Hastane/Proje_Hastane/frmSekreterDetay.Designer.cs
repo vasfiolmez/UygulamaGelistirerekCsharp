@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSekreterDetay));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lblTC = new System.Windows.Forms.Label();
             this.lblAdSoyad = new System.Windows.Forms.Label();
@@ -37,7 +38,6 @@
             this.btnOlustur = new System.Windows.Forms.Button();
             this.rchDuyuru = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnGuncelle = new System.Windows.Forms.Button();
             this.btnkaydet = new System.Windows.Forms.Button();
             this.cbDurum = new System.Windows.Forms.CheckBox();
             this.msbTC = new System.Windows.Forms.MaskedTextBox();
@@ -60,6 +60,7 @@
             this.btnRandevuListe = new System.Windows.Forms.Button();
             this.btnBransPanel = new System.Windows.Forms.Button();
             this.btnDoktorpanel = new System.Windows.Forms.Button();
+            this.btnDuyuru = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -150,7 +151,6 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.btnGuncelle);
             this.groupBox3.Controls.Add(this.btnkaydet);
             this.groupBox3.Controls.Add(this.cbDurum);
             this.groupBox3.Controls.Add(this.msbTC);
@@ -172,18 +172,9 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Randevu Paneli";
             // 
-            // btnGuncelle
-            // 
-            this.btnGuncelle.Location = new System.Drawing.Point(104, 422);
-            this.btnGuncelle.Name = "btnGuncelle";
-            this.btnGuncelle.Size = new System.Drawing.Size(154, 44);
-            this.btnGuncelle.TabIndex = 8;
-            this.btnGuncelle.Text = "Güncelle";
-            this.btnGuncelle.UseVisualStyleBackColor = true;
-            // 
             // btnkaydet
             // 
-            this.btnkaydet.Location = new System.Drawing.Point(104, 367);
+            this.btnkaydet.Location = new System.Drawing.Point(84, 386);
             this.btnkaydet.Name = "btnkaydet";
             this.btnkaydet.Size = new System.Drawing.Size(154, 44);
             this.btnkaydet.TabIndex = 7;
@@ -194,7 +185,7 @@
             // cbDurum
             // 
             this.cbDurum.AutoSize = true;
-            this.cbDurum.Location = new System.Drawing.Point(108, 312);
+            this.cbDurum.Location = new System.Drawing.Point(88, 331);
             this.cbDurum.Name = "cbDurum";
             this.cbDurum.Size = new System.Drawing.Size(84, 27);
             this.cbDurum.TabIndex = 5;
@@ -203,7 +194,7 @@
             // 
             // msbTC
             // 
-            this.msbTC.Location = new System.Drawing.Point(108, 275);
+            this.msbTC.Location = new System.Drawing.Point(88, 294);
             this.msbTC.Mask = "00000000000";
             this.msbTC.Name = "msbTC";
             this.msbTC.Size = new System.Drawing.Size(150, 31);
@@ -213,7 +204,7 @@
             // cmbDoktor
             // 
             this.cmbDoktor.FormattingEnabled = true;
-            this.cmbDoktor.Location = new System.Drawing.Point(107, 229);
+            this.cmbDoktor.Location = new System.Drawing.Point(87, 248);
             this.cmbDoktor.Name = "cmbDoktor";
             this.cmbDoktor.Size = new System.Drawing.Size(151, 31);
             this.cmbDoktor.TabIndex = 5;
@@ -221,7 +212,7 @@
             // cmbBrans
             // 
             this.cmbBrans.FormattingEnabled = true;
-            this.cmbBrans.Location = new System.Drawing.Point(107, 185);
+            this.cmbBrans.Location = new System.Drawing.Point(87, 204);
             this.cmbBrans.Name = "cmbBrans";
             this.cmbBrans.Size = new System.Drawing.Size(151, 31);
             this.cmbBrans.TabIndex = 4;
@@ -229,7 +220,7 @@
             // 
             // msbSaat
             // 
-            this.msbSaat.Location = new System.Drawing.Point(108, 147);
+            this.msbSaat.Location = new System.Drawing.Point(88, 166);
             this.msbSaat.Mask = "00:00";
             this.msbSaat.Name = "msbSaat";
             this.msbSaat.Size = new System.Drawing.Size(150, 31);
@@ -238,7 +229,7 @@
             // 
             // msbTarih
             // 
-            this.msbTarih.Location = new System.Drawing.Point(108, 107);
+            this.msbTarih.Location = new System.Drawing.Point(88, 126);
             this.msbTarih.Mask = "00/00/0000";
             this.msbTarih.Name = "msbTarih";
             this.msbTarih.Size = new System.Drawing.Size(150, 31);
@@ -247,7 +238,7 @@
             // 
             // txtİd
             // 
-            this.txtİd.Location = new System.Drawing.Point(107, 61);
+            this.txtİd.Location = new System.Drawing.Point(87, 80);
             this.txtİd.Name = "txtİd";
             this.txtİd.Size = new System.Drawing.Size(151, 31);
             this.txtİd.TabIndex = 1;
@@ -255,7 +246,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(64, 273);
+            this.label8.Location = new System.Drawing.Point(44, 292);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(37, 23);
             this.label8.TabIndex = 0;
@@ -264,7 +255,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(31, 232);
+            this.label7.Location = new System.Drawing.Point(11, 251);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(70, 23);
             this.label7.TabIndex = 0;
@@ -273,7 +264,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(42, 185);
+            this.label6.Location = new System.Drawing.Point(22, 204);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(59, 23);
             this.label6.TabIndex = 0;
@@ -282,7 +273,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(51, 150);
+            this.label5.Location = new System.Drawing.Point(31, 169);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(50, 23);
             this.label5.TabIndex = 0;
@@ -291,7 +282,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(47, 105);
+            this.label4.Location = new System.Drawing.Point(27, 124);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(54, 23);
             this.label4.TabIndex = 0;
@@ -300,7 +291,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(71, 61);
+            this.label2.Location = new System.Drawing.Point(51, 80);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(30, 23);
             this.label2.TabIndex = 0;
@@ -348,6 +339,7 @@
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.btnDuyuru);
             this.groupBox6.Controls.Add(this.btnRandevuListe);
             this.groupBox6.Controls.Add(this.btnBransPanel);
             this.groupBox6.Controls.Add(this.btnDoktorpanel);
@@ -360,25 +352,27 @@
             // 
             // btnRandevuListe
             // 
-            this.btnRandevuListe.Location = new System.Drawing.Point(374, 30);
+            this.btnRandevuListe.Location = new System.Drawing.Point(307, 30);
             this.btnRandevuListe.Name = "btnRandevuListe";
             this.btnRandevuListe.Size = new System.Drawing.Size(138, 39);
             this.btnRandevuListe.TabIndex = 0;
             this.btnRandevuListe.Text = "Randevu Liste";
             this.btnRandevuListe.UseVisualStyleBackColor = true;
+            this.btnRandevuListe.Click += new System.EventHandler(this.btnRandevuListe_Click);
             // 
             // btnBransPanel
             // 
-            this.btnBransPanel.Location = new System.Drawing.Point(244, 30);
+            this.btnBransPanel.Location = new System.Drawing.Point(177, 30);
             this.btnBransPanel.Name = "btnBransPanel";
             this.btnBransPanel.Size = new System.Drawing.Size(124, 39);
             this.btnBransPanel.TabIndex = 0;
             this.btnBransPanel.Text = "Branş Paneli";
             this.btnBransPanel.UseVisualStyleBackColor = true;
+            this.btnBransPanel.Click += new System.EventHandler(this.btnBransPanel_Click);
             // 
             // btnDoktorpanel
             // 
-            this.btnDoktorpanel.Location = new System.Drawing.Point(114, 30);
+            this.btnDoktorpanel.Location = new System.Drawing.Point(47, 30);
             this.btnDoktorpanel.Name = "btnDoktorpanel";
             this.btnDoktorpanel.Size = new System.Drawing.Size(124, 39);
             this.btnDoktorpanel.TabIndex = 0;
@@ -386,10 +380,21 @@
             this.btnDoktorpanel.UseVisualStyleBackColor = true;
             this.btnDoktorpanel.Click += new System.EventHandler(this.btnDoktorpanel_Click);
             // 
+            // btnDuyuru
+            // 
+            this.btnDuyuru.Location = new System.Drawing.Point(451, 30);
+            this.btnDuyuru.Name = "btnDuyuru";
+            this.btnDuyuru.Size = new System.Drawing.Size(138, 39);
+            this.btnDuyuru.TabIndex = 1;
+            this.btnDuyuru.Text = "Duyurular";
+            this.btnDuyuru.UseVisualStyleBackColor = true;
+            this.btnDuyuru.Click += new System.EventHandler(this.btnDuyuru_Click);
+            // 
             // frmSekreterDetay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1238, 606);
             this.Controls.Add(this.groupBox6);
@@ -399,8 +404,11 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
+            this.MaximizeBox = false;
             this.Name = "frmSekreterDetay";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sekreter Detay";
             this.Load += new System.EventHandler(this.frmSekreterDetay_Load);
             this.groupBox1.ResumeLayout(false);
@@ -434,7 +442,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnGuncelle;
         private System.Windows.Forms.Button btnkaydet;
         private System.Windows.Forms.CheckBox cbDurum;
         private System.Windows.Forms.MaskedTextBox msbTC;
@@ -451,5 +458,6 @@
         private System.Windows.Forms.Button btnRandevuListe;
         private System.Windows.Forms.Button btnBransPanel;
         private System.Windows.Forms.Button btnDoktorpanel;
+        private System.Windows.Forms.Button btnDuyuru;
     }
 }

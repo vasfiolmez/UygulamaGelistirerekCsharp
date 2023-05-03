@@ -96,6 +96,24 @@ namespace Proje_Hastane
             frmDoktorPaneli drp=new frmDoktorPaneli();
             drp.Show();
         }
+
+        private void btnBransPanel_Click(object sender, EventArgs e)
+        {
+            frmBrans frmbrans=new frmBrans();
+            frmbrans.Show();
+        }
+
+        private void btnRandevuListe_Click(object sender, EventArgs e)
+        {
+            frmRandevuListesi liste=new frmRandevuListesi();
+            liste.Show();
+        }
+
+        private void btnDuyuru_Click(object sender, EventArgs e)
+        {
+            frmDuyurular duyurular=new frmDuyurular();  
+            duyurular.Show();
+        }
     }
 
 }
