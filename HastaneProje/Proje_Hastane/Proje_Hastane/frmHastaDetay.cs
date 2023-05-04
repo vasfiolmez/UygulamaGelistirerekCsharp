@@ -56,7 +56,7 @@ namespace Proje_Hastane
             SqlDataReader dr3= cmd3.ExecuteReader();
             while (dr3.Read()) 
             {
-                cmbDoktor.Items.Add(dr3[0]+"  " + dr3[1]);
+                cmbDoktor.Items.Add(dr3[0]+" " + dr3[1]);
             }
             bgl.baglanti().Close();
         }
@@ -64,7 +64,7 @@ namespace Proje_Hastane
         private void cmbDoktor_SelectedIndexChanged(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            SqlDataAdapter d = new SqlDataAdapter("select * From Tbl_Randevu where RandevuBrans='"+cmbBrans.Text+"'",bgl.baglanti());
+            SqlDataAdapter d = new SqlDataAdapter("select * From Tbl_Randevu where RandevuBrans='"+cmbBrans.Text+"' and RandevuDoktor='"+cmbDoktor.Text+"' and RandevuDurum=0",bgl.baglanti());
             d.Fill(dt);
             dataGridView2.DataSource = dt;
         }
@@ -75,6 +75,26 @@ namespace Proje_Hastane
             fr.TCno = lblTC.Text;
             fr.ShowDialog();
             
+        }
+
+        private void btnRandevuAl_Click(object sender, EventArgs e)
+        {
+            SqlCommand cmd = new SqlCommand("update Tbl_Randevu set RandevuDurum=1,HastaTC=@p1,HastaSikayet=@p2 where Randevuid=@p3",bgl.baglanti());
+            cmd.Parameters.AddWithValue("@p1",lblTC.Text);
+            cmd.Parameters.AddWithValue("@p2",richtxtSikayet.Text);
+            cmd.Parameters.AddWithValue("@p3",txtId.Text);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Randevu alındı.","Uyarı",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+            bgl.baglanti().Close();
+
+
+        }
+
+        private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int secilen = dataGridView2.SelectedCells[0].RowIndex;
+            txtId.Text = dataGridView2.Rows[secilen].Cells[0].Value.ToString();
+
         }
     }
 }

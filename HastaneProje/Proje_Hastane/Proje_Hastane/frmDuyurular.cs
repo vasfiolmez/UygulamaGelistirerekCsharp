@@ -24,7 +24,6 @@ namespace Proje_Hastane
             SqlDataAdapter dataAdapter = new SqlDataAdapter("select * from Tbl_Duyurular",bgl.baglanti());
             dataAdapter.Fill(dt);
             dataGridView1.DataSource = dt;
-
         }
     }
 }

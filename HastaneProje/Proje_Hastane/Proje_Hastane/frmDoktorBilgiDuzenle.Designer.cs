@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDoktorBilgiDuzenle));
             this.txtSifre = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtSoyad = new System.Windows.Forms.TextBox();
@@ -46,7 +47,7 @@
             this.txtSifre.Location = new System.Drawing.Point(133, 235);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(169, 31);
-            this.txtSifre.TabIndex = 37;
+            this.txtSifre.TabIndex = 5;
             // 
             // label5
             // 
@@ -62,7 +63,7 @@
             this.txtSoyad.Location = new System.Drawing.Point(134, 97);
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(167, 31);
-            this.txtSoyad.TabIndex = 35;
+            this.txtSoyad.TabIndex = 2;
             // 
             // label1
             // 
@@ -78,7 +79,7 @@
             this.txtAd.Location = new System.Drawing.Point(134, 49);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(167, 31);
-            this.txtAd.TabIndex = 33;
+            this.txtAd.TabIndex = 1;
             // 
             // mskTC
             // 
@@ -86,7 +87,7 @@
             this.mskTC.Mask = "00000000000";
             this.mskTC.Name = "mskTC";
             this.mskTC.Size = new System.Drawing.Size(168, 31);
-            this.mskTC.TabIndex = 32;
+            this.mskTC.TabIndex = 3;
             this.mskTC.ValidatingType = typeof(int);
             // 
             // label3
@@ -113,7 +114,7 @@
             this.cmbBrans.Location = new System.Drawing.Point(133, 189);
             this.cmbBrans.Name = "cmbBrans";
             this.cmbBrans.Size = new System.Drawing.Size(169, 31);
-            this.cmbBrans.TabIndex = 38;
+            this.cmbBrans.TabIndex = 4;
             // 
             // label4
             // 
@@ -129,9 +130,10 @@
             this.btnGuncelle.Location = new System.Drawing.Point(134, 286);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(167, 38);
-            this.btnGuncelle.TabIndex = 39;
+            this.btnGuncelle.TabIndex = 6;
             this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // frmDoktorBilgiDuzenle
             // 
@@ -151,9 +153,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmDoktorBilgiDuzenle";
             this.Text = "Doktor Bilgi Güncelle";
+            this.Load += new System.EventHandler(this.frmDoktorBilgiDuzenle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
