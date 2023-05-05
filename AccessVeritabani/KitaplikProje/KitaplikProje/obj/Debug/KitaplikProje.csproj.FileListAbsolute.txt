@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\AccessVeritabani\KitaplikProje\KitaplikProje\bin\Debug\KitaplikProje.exe.config
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\AccessVeritabani\KitaplikProje\KitaplikProje\bin\Debug\KitaplikProje.exe
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\AccessVeritabani\KitaplikProje\KitaplikProje\bin\Debug\KitaplikProje.pdb
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\AccessVeritabani\KitaplikProje\KitaplikProje\obj\Debug\KitaplikProje.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\AccessVeritabani\KitaplikProje\KitaplikProje\obj\Debug\KitaplikProje.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\AccessVeritabani\KitaplikProje\KitaplikProje\obj\Debug\KitaplikProje.Form1.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\AccessVeritabani\KitaplikProje\KitaplikProje\obj\Debug\KitaplikProje.Properties.Resources.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\AccessVeritabani\KitaplikProje\KitaplikProje\obj\Debug\KitaplikProje.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\AccessVeritabani\KitaplikProje\KitaplikProje\obj\Debug\KitaplikProje.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\AccessVeritabani\KitaplikProje\KitaplikProje\obj\Debug\KitaplikProje.exe
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\AccessVeritabani\KitaplikProje\KitaplikProje\obj\Debug\KitaplikProje.pdb
