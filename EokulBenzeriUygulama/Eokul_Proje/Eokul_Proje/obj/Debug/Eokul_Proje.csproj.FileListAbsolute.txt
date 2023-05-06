@@ -1,0 +1,14 @@
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\bin\Debug\Eokul_Proje.exe.config
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\bin\Debug\Eokul_Proje.exe
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\bin\Debug\Eokul_Proje.pdb
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.Properties.Resources.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.exe
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.pdb
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.frmOgrenciNotlar.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.frmOgretmen.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.frmAnasayfa.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.frmKulup.resources

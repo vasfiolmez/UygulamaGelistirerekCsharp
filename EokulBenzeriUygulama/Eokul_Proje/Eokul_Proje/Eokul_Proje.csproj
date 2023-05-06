@@ -4,17 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3C2EC768-FC42-4D7C-ACEF-558F4C1F916E}</ProjectGuid>
+    <ProjectGuid>{0E354DCD-B3A1-4BD4-B6DF-E2BE22062A3C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>KitaplikProje</RootNamespace>
-    <AssemblyName>KitaplikProje</AssemblyName>
+    <RootNamespace>Eokul_Proje</RootNamespace>
+    <AssemblyName>Eokul_Proje</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -46,16 +46,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmKitaplık.cs">
+    <Compile Include="frmAnasayfa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmKitaplık.Designer.cs">
-      <DependentUpon>frmKitaplık.cs</DependentUpon>
+    <Compile Include="frmAnasayfa.Designer.cs">
+      <DependentUpon>frmAnasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKulup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKulup.Designer.cs">
+      <DependentUpon>frmKulup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOgrenciNotlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOgrenciNotlar.Designer.cs">
+      <DependentUpon>frmOgrenciNotlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOgretmen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOgretmen.Designer.cs">
+      <DependentUpon>frmOgretmen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmKitaplık.resx">
-      <DependentUpon>frmKitaplık.cs</DependentUpon>
+    <EmbeddedResource Include="frmAnasayfa.resx">
+      <DependentUpon>frmAnasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKulup.resx">
+      <DependentUpon>frmKulup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOgrenciNotlar.resx">
+      <DependentUpon>frmOgrenciNotlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOgretmen.resx">
+      <DependentUpon>frmOgretmen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
