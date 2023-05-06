@@ -61,6 +61,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // textBox1
             // 
@@ -96,7 +97,7 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Öğretmen";
             // 
-            // Form1
+            // frmAnasayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -111,7 +112,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
+            this.Name = "frmAnasayfa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Giriş Ekranı";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

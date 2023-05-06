@@ -24,5 +24,11 @@ namespace Eokul_Proje
             fr.Show();
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            frmOgretmen fr=new frmOgretmen();
+            fr.Show();
+        }
     }
 }

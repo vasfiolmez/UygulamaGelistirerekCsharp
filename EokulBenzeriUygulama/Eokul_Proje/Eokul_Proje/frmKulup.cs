@@ -51,5 +51,34 @@ namespace Eokul_Proje
             MessageBox.Show("Kulup Listeye eklendi.","Bilgi",MessageBoxButtons.OK,MessageBoxIcon.Information);
             listele();
         }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtKid.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+            txtKadi.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+        }
+
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand cmd = new SqlCommand("delete from TBLKULUPLER where KULUPID=@p1",baglanti);
+            cmd.Parameters.AddWithValue("@p1",txtKid.Text);
+            cmd.ExecuteNonQuery();
+            baglanti.Close();
+            MessageBox.Show("Kulüp kaydı silindi.");
+            listele();
+        }
+
+        private void btnGüncelle_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand cmd = new SqlCommand("update TBLKULUPLER set KULUPAD=@p1 where KULUPID=@p2",baglanti);
+            cmd.Parameters.AddWithValue("@p1",txtKadi.Text);
+            cmd.Parameters.AddWithValue("@p2",txtKid.Text);
+            cmd.ExecuteNonQuery();
+            baglanti.Close();
+            MessageBox.Show("Kulüp kaydı güncellendi.");
+            listele();
+        }
     }
 }

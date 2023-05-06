@@ -16,7 +16,7 @@ namespace Eokul_Proje
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmOgretmen());
+            Application.Run(new frmAnasayfa());
         }
     }
 }

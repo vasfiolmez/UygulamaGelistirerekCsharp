@@ -62,6 +62,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(616, 223);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // txtKid
             // 
@@ -169,6 +170,7 @@
             this.btnGüncelle.TabIndex = 8;
             this.btnGüncelle.Text = "GÜNCELLE";
             this.btnGüncelle.UseVisualStyleBackColor = true;
+            this.btnGüncelle.Click += new System.EventHandler(this.btnGüncelle_Click);
             // 
             // pictureBox4
             // 
@@ -192,6 +194,7 @@
             this.btnSil.TabIndex = 10;
             this.btnSil.Text = "SİL";
             this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // pctSetting
             // 
