@@ -12,3 +12,5 @@ C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.frmOgretmen.resources
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.frmAnasayfa.resources
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.frmKulup.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.frmDersler.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EokulBenzeriUygulama\Eokul_Proje\Eokul_Proje\obj\Debug\Eokul_Proje.frmOgrenci.resources

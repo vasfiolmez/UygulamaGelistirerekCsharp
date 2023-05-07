@@ -46,17 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="frmAnasayfa.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmAnasayfa.Designer.cs">
       <DependentUpon>frmAnasayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDersler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDersler.Designer.cs">
+      <DependentUpon>frmDersler.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmKulup.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmKulup.Designer.cs">
       <DependentUpon>frmKulup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOgrenci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOgrenci.Designer.cs">
+      <DependentUpon>frmOgrenci.cs</DependentUpon>
     </Compile>
     <Compile Include="frmOgrenciNotlar.cs">
       <SubType>Form</SubType>
@@ -75,8 +92,14 @@
     <EmbeddedResource Include="frmAnasayfa.resx">
       <DependentUpon>frmAnasayfa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDersler.resx">
+      <DependentUpon>frmDersler.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmKulup.resx">
       <DependentUpon>frmKulup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOgrenci.resx">
+      <DependentUpon>frmOgrenci.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmOgrenciNotlar.resx">
       <DependentUpon>frmOgrenciNotlar.cs</DependentUpon>
@@ -93,6 +116,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -22,5 +22,17 @@ namespace Eokul_Proje
             frmKulup fr=new frmKulup();
             fr.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmDersler frmDersler = new frmDersler();
+            frmDersler.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            frmOgrenci frmOgrenci = new frmOgrenci();
+            frmOgrenci.Show();
+        }
     }
 }
