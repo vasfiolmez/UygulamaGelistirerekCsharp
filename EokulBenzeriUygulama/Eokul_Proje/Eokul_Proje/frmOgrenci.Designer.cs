@@ -46,7 +46,6 @@
             this.txtOgrid = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.txtOgrsoyadi = new System.Windows.Forms.TextBox();
-            this.txtOgrKulüp = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -56,6 +55,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.btnARA = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pctExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctSetting)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -122,6 +122,7 @@
             this.btnSil.TabIndex = 41;
             this.btnSil.Text = "SİL";
             this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // pictureBox3
             // 
@@ -145,6 +146,7 @@
             this.btnGüncelle.TabIndex = 39;
             this.btnGüncelle.Text = "GÜNCELLE";
             this.btnGüncelle.UseVisualStyleBackColor = true;
+            this.btnGüncelle.Click += new System.EventHandler(this.btnGüncelle_Click);
             // 
             // pictureBox2
             // 
@@ -168,6 +170,7 @@
             this.btnEkle.TabIndex = 37;
             this.btnEkle.Text = "EKLE";
             this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // pictureBox1
             // 
@@ -191,6 +194,7 @@
             this.btnListele.TabIndex = 35;
             this.btnListele.Text = "LİSTELE";
             this.btnListele.UseVisualStyleBackColor = true;
+            this.btnListele.Click += new System.EventHandler(this.btnListele_Click);
             // 
             // label2
             // 
@@ -236,6 +240,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1075, 336);
             this.dataGridView1.TabIndex = 30;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // txtOgrsoyadi
             // 
@@ -244,14 +249,6 @@
             this.txtOgrsoyadi.Name = "txtOgrsoyadi";
             this.txtOgrsoyadi.Size = new System.Drawing.Size(195, 31);
             this.txtOgrsoyadi.TabIndex = 46;
-            // 
-            // txtOgrKulüp
-            // 
-            this.txtOgrKulüp.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtOgrKulüp.Location = new System.Drawing.Point(865, 578);
-            this.txtOgrKulüp.Name = "txtOgrKulüp";
-            this.txtOgrKulüp.Size = new System.Drawing.Size(195, 31);
-            this.txtOgrKulüp.TabIndex = 47;
             // 
             // label4
             // 
@@ -293,6 +290,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Kadın ";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -304,6 +302,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Erkek";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // txtAra
             // 
@@ -335,6 +334,7 @@
             this.btnARA.TabIndex = 41;
             this.btnARA.Text = "ARA";
             this.btnARA.UseVisualStyleBackColor = true;
+            this.btnARA.Click += new System.EventHandler(this.btnARA_Click);
             // 
             // groupBox1
             // 
@@ -355,16 +355,26 @@
             this.groupBox1.TabIndex = 51;
             this.groupBox1.TabStop = false;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(865, 581);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(195, 28);
+            this.comboBox1.TabIndex = 52;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
             // frmOgrenci
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1078, 681);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.txtOgrKulüp);
             this.Controls.Add(this.txtOgrsoyadi);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pctExit);
@@ -418,7 +428,6 @@
         private System.Windows.Forms.TextBox txtOgrid;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox txtOgrsoyadi;
-        private System.Windows.Forms.TextBox txtOgrKulüp;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
@@ -428,5 +437,6 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Button btnARA;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
