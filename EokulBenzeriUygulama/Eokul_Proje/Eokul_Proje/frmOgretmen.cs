@@ -34,5 +34,11 @@ namespace Eokul_Proje
             frmOgrenci frmOgrenci = new frmOgrenci();
             frmOgrenci.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmSınavNotları frm=new frmSınavNotları();
+            frm.Show();
+        }
     }
 }
