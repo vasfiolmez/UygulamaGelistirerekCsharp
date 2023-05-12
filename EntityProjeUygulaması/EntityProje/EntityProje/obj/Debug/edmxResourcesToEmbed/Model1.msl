@@ -12,6 +12,7 @@
     <EntitySetMapping Name="TBLMUSTERILER">
       <EntityTypeMapping TypeName="DbEntityUrunModel.TBLMUSTERILER">
         <MappingFragment StoreEntitySet="TBLMUSTERILER">
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
           <ScalarProperty Name="MUSTERIID" ColumnName="MUSTERIID" />
           <ScalarProperty Name="MUSTERIAD" ColumnName="MUSTERIAD" />
           <ScalarProperty Name="MUSTERİSOYAD" ColumnName="MUSTERİSOYAD" />
@@ -40,6 +41,16 @@
           <ScalarProperty Name="FIYAT" ColumnName="FIYAT" />
           <ScalarProperty Name="DURUM" ColumnName="DURUM" />
           <ScalarProperty Name="KATEGORI" ColumnName="KATEGORI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="markagetir" FunctionName="DbEntityUrunModel.Store.markagetir" />
+    <EntitySetMapping Name="TBLADMIN">
+      <EntityTypeMapping TypeName="DbEntityUrunModel.TBLADMIN">
+        <MappingFragment StoreEntitySet="TBLADMIN">
+          <ScalarProperty Name="SİFRE" ColumnName="SİFRE" />
+          <ScalarProperty Name="KULLANICI" ColumnName="KULLANICI" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

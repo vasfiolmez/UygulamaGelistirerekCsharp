@@ -17,6 +17,7 @@
     <Property Name="MUSTERİSOYAD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
     <Property Name="SEHIR" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="TBLSATIS" Relationship="Self.FK_TBLSATIS_TBLMUSTERILER" FromRole="TBLMUSTERILER" ToRole="TBLSATIS" />
+    <Property Name="DURUM" Type="Boolean" />
   </EntityType>
   <EntityType Name="TBLSATIS">
     <Key>
@@ -97,5 +98,15 @@
       <End Role="TBLURUN" EntitySet="TBLURUN" />
       <End Role="TBLSATIS" EntitySet="TBLSATIS" />
     </AssociationSet>
+    <FunctionImport Name="markagetir" ReturnType="Collection(String)" />
+    <EntitySet Name="TBLADMIN" EntityType="DbEntityUrunModel.TBLADMIN" />
   </EntityContainer>
+  <EntityType Name="TBLADMIN">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KULLANICI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SİFRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>

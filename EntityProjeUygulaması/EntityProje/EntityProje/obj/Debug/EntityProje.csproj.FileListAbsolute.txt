@@ -16,3 +16,5 @@ C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EntityProjeUygulaması\EntityProj
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EntityProjeUygulaması\EntityProje\EntityProje\obj\Debug\EntityProje.frmKategori.resources
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EntityProjeUygulaması\EntityProje\EntityProje\obj\Debug\EntityProje.frmAnaform.resources
 C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EntityProjeUygulaması\EntityProje\EntityProje\obj\Debug\EntityProje.frmUrun.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EntityProjeUygulaması\EntityProje\EntityProje\obj\Debug\EntityProje.frmİstatistik.resources
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\EntityProjeUygulaması\EntityProje\EntityProje\obj\Debug\EntityProje.frmGiriş.resources

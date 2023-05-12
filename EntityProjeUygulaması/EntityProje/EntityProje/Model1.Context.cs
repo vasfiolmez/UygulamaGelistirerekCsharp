@@ -12,6 +12,8 @@ namespace EntityProje
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class DbEntityUrunEntities : DbContext
     {
@@ -29,5 +31,11 @@ namespace EntityProje
         public virtual DbSet<TBLMUSTERILER> TBLMUSTERILER { get; set; }
         public virtual DbSet<TBLSATIS> TBLSATIS { get; set; }
         public virtual DbSet<TBLURUN> TBLURUN { get; set; }
+        public virtual DbSet<TBLADMIN> TBLADMIN { get; set; }
+    
+        public virtual ObjectResult<string> markagetir()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("markagetir");
+        }
     }
 }
