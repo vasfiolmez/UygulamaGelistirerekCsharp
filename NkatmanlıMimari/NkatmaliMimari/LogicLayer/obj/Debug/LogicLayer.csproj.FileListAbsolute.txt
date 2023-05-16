@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\NkatmanlıMimari\NkatmaliMimari\LogicLayer\bin\Debug\LogicLayer.dll
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\NkatmanlıMimari\NkatmaliMimari\LogicLayer\bin\Debug\LogicLayer.pdb
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\NkatmanlıMimari\NkatmaliMimari\LogicLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\NkatmanlıMimari\NkatmaliMimari\LogicLayer\bin\Debug\EntityLayer.dll
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\NkatmanlıMimari\NkatmaliMimari\LogicLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\NkatmanlıMimari\NkatmaliMimari\LogicLayer\bin\Debug\EntityLayer.pdb
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\NkatmanlıMimari\NkatmaliMimari\LogicLayer\obj\Debug\LogicLayer.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\NkatmanlıMimari\NkatmaliMimari\LogicLayer\obj\Debug\LogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\NkatmanlıMimari\NkatmaliMimari\LogicLayer\obj\Debug\LogicLayer.csproj.CopyComplete
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\NkatmanlıMimari\NkatmaliMimari\LogicLayer\obj\Debug\LogicLayer.dll
+C:\Users\hp\Desktop\UygulamaGelistirerekCsharp\NkatmanlıMimari\NkatmaliMimari\LogicLayer\obj\Debug\LogicLayer.pdb
