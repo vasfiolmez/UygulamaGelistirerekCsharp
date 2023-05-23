@@ -10,8 +10,6 @@ namespace LogicLayer
 {
     public class LogicPersonel
     {
-
-
         public static List<EntityPersonel> llPersonelListesi()
         {
             return DALPersonel.PersonelListesi();
@@ -43,7 +41,7 @@ namespace LogicLayer
         }
         public static bool llPersonelGuncelle(EntityPersonel ent)
         {
-            if (ent.Ad.Length>=3 && ent.Ad != "" && ent.Maas >= 4500)
+            if (ent.Ad.Length >= 3 && ent.Ad != "" && ent.Maas >= 4500)
             {
                 return DALPersonel.personelGuncelle(ent);
             }
