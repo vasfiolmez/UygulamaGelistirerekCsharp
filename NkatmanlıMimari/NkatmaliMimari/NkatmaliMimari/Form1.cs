@@ -37,5 +37,24 @@ namespace NkatmaliMimari
 
             LogicPersonel.llPersonelEkle(ent); 
         }
+
+        private void btnsil_Click(object sender, EventArgs e)
+        {
+            EntityPersonel ent=new EntityPersonel();
+            ent.Id = Convert.ToInt32(txtıd.Text);
+            LogicPersonel.llPersonelSil(ent.Id);
+        }
+
+        private void btnguncelle_Click(object sender, EventArgs e)
+        {
+            EntityPersonel ent = new EntityPersonel();
+            ent.Id = Convert.ToInt32(txtıd.Text);
+            ent.Ad=txtAd.Text;
+            ent.Soyad=txtSoyad.Text;
+            ent.Sehir = txtSehir.Text;
+            ent.Maas = short.Parse(txtMaas.Text);
+            ent.Gorev = txtGorev.Text;
+            LogicPersonel.llPersonelGuncelle(ent);
+        }
     }
 }

@@ -52,5 +52,32 @@ namespace DataAccessLayer
             return cmd.ExecuteNonQuery();
 
         }
+
+        public static bool PersonelSil(int p)
+        {
+            SqlCommand cmd = new SqlCommand("Delete from TBLBILGI where id=@p1",Baglanti.bgl);
+            if (cmd.Connection.State != ConnectionState.Open)
+            {
+                cmd.Connection.Open();
+            }
+            cmd.Parameters.AddWithValue("@p1",p);
+            return cmd.ExecuteNonQuery() > 0;
+        }
+
+        public static bool personelGuncelle(EntityPersonel ent)
+        {
+            SqlCommand komut4 = new SqlCommand("Update TBLBILGI set ad=@p1,soyad=@p2,maas=@p3,sehir=@p4,gorev=@p5 where id=@p6",Baglanti.bgl);
+            if (komut4.Connection.State != ConnectionState.Open)
+            {
+                komut4.Connection.Open();
+            }
+            komut4.Parameters.AddWithValue("@p1",ent.Ad);
+            komut4.Parameters.AddWithValue("@p2", ent.Soyad);
+            komut4.Parameters.AddWithValue("@p3", ent.Maas);
+            komut4.Parameters.AddWithValue("@p4", ent.Sehir);
+            komut4.Parameters.AddWithValue("@p5", ent.Gorev);
+            komut4.Parameters.AddWithValue("@p6", ent.Id);
+            return komut4.ExecuteNonQuery()>0;
+        }
     }
 }

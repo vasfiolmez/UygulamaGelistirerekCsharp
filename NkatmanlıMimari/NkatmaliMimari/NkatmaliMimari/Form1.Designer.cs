@@ -42,7 +42,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtSehir = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnekle = new System.Windows.Forms.Button();
+            this.btnsil = new System.Windows.Forms.Button();
+            this.btnguncelle = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -160,22 +162,44 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "Sehir:";
             // 
-            // button1
+            // btnekle
             // 
-            this.button1.Location = new System.Drawing.Point(534, 96);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 35);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnekle.Location = new System.Drawing.Point(534, 96);
+            this.btnekle.Name = "btnekle";
+            this.btnekle.Size = new System.Drawing.Size(129, 35);
+            this.btnekle.TabIndex = 14;
+            this.btnekle.Text = "ekle";
+            this.btnekle.UseVisualStyleBackColor = true;
+            this.btnekle.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnsil
+            // 
+            this.btnsil.Location = new System.Drawing.Point(534, 138);
+            this.btnsil.Name = "btnsil";
+            this.btnsil.Size = new System.Drawing.Size(129, 39);
+            this.btnsil.TabIndex = 15;
+            this.btnsil.Text = "sil";
+            this.btnsil.UseVisualStyleBackColor = true;
+            this.btnsil.Click += new System.EventHandler(this.btnsil_Click);
+            // 
+            // btnguncelle
+            // 
+            this.btnguncelle.Location = new System.Drawing.Point(534, 183);
+            this.btnguncelle.Name = "btnguncelle";
+            this.btnguncelle.Size = new System.Drawing.Size(129, 36);
+            this.btnguncelle.TabIndex = 16;
+            this.btnguncelle.Text = "güncelle";
+            this.btnguncelle.UseVisualStyleBackColor = true;
+            this.btnguncelle.Click += new System.EventHandler(this.btnguncelle_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(675, 448);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnguncelle);
+            this.Controls.Add(this.btnsil);
+            this.Controls.Add(this.btnekle);
             this.Controls.Add(this.txtSehir);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtGorev);
@@ -216,7 +240,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtSehir;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnekle;
+        private System.Windows.Forms.Button btnsil;
+        private System.Windows.Forms.Button btnguncelle;
     }
 }
 

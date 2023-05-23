@@ -16,10 +16,10 @@ namespace LogicLayer
         {
             return DALPersonel.PersonelListesi();
         }
-        public static int llPersonelEkle(EntityPersonel personel) 
+        public static int llPersonelEkle(EntityPersonel personel)
         {
 
-            if (personel.Ad!=""&& personel.Soyad!=""&&personel.Maas>=3500 && personel.Ad.Length>=3)
+            if (personel.Ad != "" && personel.Soyad != "" && personel.Maas >= 3500 && personel.Ad.Length >= 3)
             {
                 return DALPersonel.PersonelEkle(personel);
             }
@@ -29,5 +29,28 @@ namespace LogicLayer
             }
         }
 
+        public static bool llPersonelSil(int per)
+        {
+            if (per >= 1)
+            {
+                return DALPersonel.PersonelSil(per);
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+        public static bool llPersonelGuncelle(EntityPersonel ent)
+        {
+            if (ent.Ad.Length>=3 && ent.Ad != "" && ent.Maas >= 4500)
+            {
+                return DALPersonel.personelGuncelle(ent);
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
